@@ -20,5 +20,4 @@ cabal.project.local
 .HTF/
 *.vcs
 *.idea
-
 venv
