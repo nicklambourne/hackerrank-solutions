@@ -11,9 +11,12 @@ def print_set(s):
             print(s[i])
 
 def insertionSort1(n, arr):
+    if n == 1:
+        print(arr[0])
+        return
     index = n - 1
     num = arr[index]
-    while num < arr[index-1]:
+    while index - 1 >= 0 and num < arr[index-1]:
         arr[index] = arr[index-1]
         index -= 1
         print_set(arr)
