@@ -22,3 +22,4 @@ for _ in range(n):
     string += input()
 parser = MyHTMLParser()
 parser.feed(string)
+parser.close()
